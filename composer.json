@@ -1,0 +1,35 @@
+{
+    "name": "laravel-admin-ext/file-browser",
+    "description": "A file browser for laravel-admin",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension"],
+    "homepage": "https://github.com/laravel-admin-ext/file-browser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dian Wang",
+            "email": "dian126@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6",
+        "laravel-admin-ext/media-manager": "^1.0",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Encore\\FileBrowser\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Encore\\FileBrowser\\FileBrowserServiceProvider"
+            ]
+
+        }
+    }
+}
