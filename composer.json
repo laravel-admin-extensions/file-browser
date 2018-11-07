@@ -14,7 +14,7 @@
     "require": {
         "php": ">=7.0.0",
         "encore/laravel-admin": "~1.6",
-        "laravel-admin-ext/media-manager": "^1.0",
+        "laravel-admin-ext/media-manager": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.0"
