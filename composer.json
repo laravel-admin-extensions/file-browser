@@ -3,7 +3,7 @@
     "description": "A file browser for laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
-    "homepage": "https://github.com/laravel-admin-ext/file-browser",
+    "homepage": "https://github.com/laravel-admin-extensions/file-browser",
     "license": "MIT",
     "authors": [
         {

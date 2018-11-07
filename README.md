@@ -9,7 +9,7 @@ a simple file browser extension for laravel-admin
 
 1,安装:
 ````
-composer require laravel-admin-extensions/file-browser
+composer require laravel-admin-ext/file-browser
 ````
 
 2,发布media-manager的文件(如已发布，可跳过)
