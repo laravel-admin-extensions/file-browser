@@ -17,7 +17,7 @@ class FileBrowserField extends Field
         $this->media = new MediaManager($path);
         $this->variables = [
             'list'=>$this->media->ls(),
-            'baseURL'=>config('filesystems.disks'.config('admin.extensions.media-manager.disk').'url'),
+            'baseURL'=>config('filesystems.disks.'.config('admin.extensions.media-manager.disk').'.url'),
             'path'=>$this->path,
         ];
     }
